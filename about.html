@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Player App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-players">
+    <header class="navbar">
+        <div class="logo">
+        <h2>⚽ Football App</h2>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active-link" href="about.html">Players</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main class="players-page">
+        <section class="about-section">
+            <p class="eyebrow">Player Directory</p>
+            <h1>Search football players</h1>
+            <p>This app helps you find football players and view key details like team, position, nationality, and date of birth.</p>
+        </section>
+
+        <section class="search-section">
+            <h2>Search Player</h2>
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="Enter player name...">
+                <button id="searchButton" type="button">Search</button>
+            </div>
+            <p id="statusMessage" class="status-message" aria-live="polite"></p>
+            <p id="errorMessage" class="error-message" aria-live="polite"></p>
+        </section>
+
+        <section class="results" id="results"></section>
+    </main>
+   
+    <div class="footer">
+        <footer class="section">
+            <p>&copy; 2026 Football App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

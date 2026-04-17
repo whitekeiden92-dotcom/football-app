@@ -1,0 +1,123 @@
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: darkslateblue;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.site-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  padding: 30px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  margin-bottom: 20px;
+}
+
+/* Button */
+.button-link {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: darkgreen;
+}
+
+/* About/Search page */
+.players-page {
+  padding: 20px;
+}
+
+.search-controls {
+  margin-top: 10px;
+}
+
+.search-controls input {
+  padding: 8px;
+  width: 200px;
+}
+
+.search-controls button {
+  padding: 8px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-controls button:hover {
+  background-color: darkgreen;
+}
+
+/* Messages */
+.status-message {
+  color: blue;
+}
+
+.error-message {
+  color: red;
+}
+
+/* Results */
+.results {
+  margin-top: 20px;
+}
+
+/* Player card */
+.player-card {
+  background-color: darkgray;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.player-card img {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  margin-top: 20px;
+}
